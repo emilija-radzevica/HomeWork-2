@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: lightblue;
+}
+.truck {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+.truck-top {
+    display: flex;
+    align-items: center;
+}
+.wagon {
+    width: 600px;
+    height: 380px;
+    background-color: black;
+}
+/* // wagon */
+.cabin {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 40px;
+    left: 10px;
+}
+.cabin-top {
+    width: 270px;
+    height: 250px;
+    background-color: black;
+    border-top-right-radius: 100%;
+}
+.window {
+    width: 190px;
+    height: 150px;
+    background-color: white;
+    border-top-right-radius: 100%;
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+.cabin-bottom {
+    width: 300px;
+    height: 120px;
+    background-color: black;
+    position: relative;
+    bottom: 35px;
+    border-radius: 15px;
+}
+/* // cabin-bottom, cabin, truck-top */
+
+.truck-floor {
+    width: 935px;
+    height: 20px;
+    background-color: black;
+    border-radius: 20px;
+    position: relative;
+    bottom: 15px;
+    left: 5px;
+}
+/* // top of the truck */
+
+.wheels {
+    width: 930px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 90px;
+    right: 30px;
+}
+.wheel-middle {
+    position: relative;
+    left: 70px;
+}
+.tire {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50%;
+    border: solid 10px lightblue;
+}
+.disc {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 15px;
+}
+/* // wheels, truck-bottom, truck */

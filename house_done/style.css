@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: linear-gradient(179deg, rgb(255, 129, 27) -27.5%, rgb(245, 255, 56) 94.7%);
+    height: 80vh;
+}
+.house {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20vh;
+}
+
+.above-ground {
+    display: flex;
+    align-items: flex-end;
+    width: 1280px;
+}
+
+.front-house-small {
+    position: relative;
+    left: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.roof-small {
+    width: 145px;
+    height: 145px;
+    background-color: rgb(244, 244, 244);
+    transform: rotate(45deg);
+    position: relative;
+    top: 72px;
+    z-index: 1;
+    border-left: solid 7px black;
+    border-top: solid 7px black;
+}
+/* // roof-small */
+.front-block-small {
+    width: 205px;
+    height: 200px;
+    background-color: rgb(244, 244, 244);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.window-style-three-small {
+    width: 100px;
+    height: 60px;
+    background-color: rgb(129, 130, 146);
+    border: solid 5px rgb(56, 55, 55);
+    /* border-top: solid 5px rgb(62, 62, 62);
+    border-left: solid 5px rgb(62, 62, 62);
+    border-right: solid 3px rgb(62, 62, 62);
+    border-bottom: solid 3px rgb(62, 62, 62); */
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    position: relative;
+    bottom: 30px;
+}
+/* // top of the front-house-small */
+.lines-small {
+    position: relative;
+    bottom: 19px;
+}
+.line-small {
+    width: 205px;
+    height: 4px;
+    background-color:  rgb(150, 25, 25);
+    margin-top: 5px;
+}
+.window-style-four-small {
+    width: 110px;
+    height: 90px;
+    background-color: rgb(129, 130, 146);
+    border: solid 5px rgb(56, 55, 55);
+    position: relative;
+    bottom: 10px;
+}
+/* // bottom of the front-house-small, front-house-small */
+
+.back-house {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 170px;
+}
+.roof {
+    width: 550px;
+    height: 120px;
+    background-color:  rgb(150, 25, 25);
+    transform: perspective(240px) rotateX(30deg);
+}
+.shadow {
+    width: 550px;
+    height: 15px;
+    background-color: rgb(170, 166, 166);
+}
+/* // roof */
+.back-block {
+    width: 550px;
+    height: 270px;
+    background-color: rgb(205, 202, 202);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.back-windows-top {
+    width: 460px;
+    display: flex;
+    justify-content: space-between;
+}
+.window-style-one {
+    width: 90px;
+    height: 70px;
+    background-color: rgb(129, 130, 146);
+    border: solid 5px rgb(56, 55, 55);
+}
+/* // top of back-block */
+.line {
+    width: 550px;
+    height: 3px;
+    background-color:  rgb(150, 25, 25);
+    margin-top: 5px;
+}
+.back-windows-bottom {
+    width: 440px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 8px;
+}
+.window-style-two {
+    width: 70px;
+    height: 90px;
+    background-color: rgb(129, 130, 146);
+    border: solid 5px rgb(56, 55, 55);
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+/* // bottom of back-block, back-block, back-house */
+
+.front-house-big {
+    position: relative;
+    right: 225px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.roof-big {
+    width: 169px;
+    height: 169px;
+    background-color: rgb(244, 244, 244);
+    transform: rotate(45deg);
+    position: relative;
+    top: 84px;
+    border-left: solid 7px black;
+    border-top: solid 7px black;
+}
+/* // roof-big */
+.front-block-big {
+    width: 240px;
+    height: 240px;
+    background-color: rgb(244, 244, 244);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.window-style-three-big {
+    width: 150px;
+    height: 85px;
+    background-color: rgb(129, 130, 146);
+    border: solid 5px rgb(56, 55, 55);
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    position: relative;
+    bottom: 35px;
+}
+/* // top of the front-house-big */
+.lines-big {
+    position: relative;
+    bottom: 17px;
+}
+.line-big {
+    width: 240px;
+    height: 4px;
+    background-color:  rgb(150, 25, 25);
+    margin-top: 4px;
+}
+/* // lines-big */
+.enterance {
+    width: 240px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 4px;
+}
+.window-style-four-big {
+    width: 45px;
+    height: 50px;
+    background-color: rgb(129, 130, 146);
+    border: solid 5px rgb(56, 55, 55);
+    position: relative;
+    top: 10px;
+}
+.door {
+    width: 80px;
+    height: 115px;
+    /* background-color: #86432a; */
+    background-color: rgb(196, 34, 34);
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.split {
+    width: 2px;
+    height: 115px;
+    background-color: black;
+    margin: auto;
+}
+/* // enterance, bottom of the front-house-big, front-house-big */
+
+.trees {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    right: 158px;
+}
+.tree-big {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.leaves-big {
+    width: 210px;
+    height: 210px;
+    background-color:rgb(7, 189, 7) ;
+    border-bottom-left-radius: 170px;
+    border-top-right-radius: 170px;
+    transform: rotate(45deg);
+    z-index: 1;
+    position: relative;
+    top: 20px;
+}
+.wood-big {
+    width: 15px;
+    height: 153px;
+    background-color: #5b3e35;
+    z-index: 1;
+}
+/* // tree-big */
+.tree-small {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    right: 100px;
+}
+.leaves-small {
+    width: 170px;
+    height: 170px;
+    background-color: green;
+    border-bottom-left-radius: 140px;
+    border-top-right-radius: 140px;
+    transform: rotate(45deg);
+    z-index: 0;
+    position: relative;
+    top: 20px;
+}
+.wood-small {
+    width: 10px;
+    height: 130px;
+    background-color: #402a23;
+    z-index: 1;
+}
+/* // tree-small, trees, above-ground */
+
+.ground {
+    width: 1200px;
+    height: 20px;
+    background-color: darkgreen;
+}
+/* // ground, house */
